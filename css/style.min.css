@@ -191,9 +191,9 @@ section {
   border-color: #212121;
   color: #fff; }
   .btn-primary:hover {
-    background-color: #333399;
-    border-color: #333399;
-    color: #fff; }
+    background-color: #fff768;
+    border-color: #fff768;
+    color: #000; }
 
 .btn-outline-primary {
   color: #fff;
