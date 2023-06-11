@@ -71,7 +71,7 @@ section {
   position: absolute;
   top: 0;
   right: 0;
-  left: -20%;
+  left: 0;
   z-index: 11;
   transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
 
