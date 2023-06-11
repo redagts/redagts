@@ -206,7 +206,7 @@ section {
     color: #fff; }
 
 .btn-shadow {
-  box-shadow: -5px 8px 20px 0px rgba(255,255,255); }
+  box-shadow: -5px 8px 20px 0px rgba(255,255,255,0.15); }
 
 .btn-icon {
   color: #000; }
