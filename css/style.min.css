@@ -23,10 +23,11 @@ h6,
 .h5,
 .h6 {
   font-family: 'Work Sans', sans-serif;
-  margin-top: 0; }
+  margin-top: 0;
+  color:#fff; }
 
 a {
-  color: #383838;
+  color: #fff;
   transition: all .3s ease-in-out; }
 
 a:focus,
@@ -36,7 +37,7 @@ button:focus {
 .btn:hover,
 a:hover {
   text-decoration: none;
-  color: #00007a; }
+  color: #fff768; }
 
 img {
   max-width: 100%; }
@@ -55,7 +56,8 @@ section {
 
 .section-content {
   padding-top: 80px;
-  padding-bottom: 80px; }
+  padding-bottom: 80px; 
+  background-color: #141414;}
 
 
 .title-wrap,
@@ -75,10 +77,10 @@ section {
 
 .navbar-brand {
   font-size: 40px;
-  color: #000; }
+  color: #fff; }
 
 .navbar-nav .nav-link {
-  color: #000;
+  color: #fff;
   transition: .3s ease; }
 
 .navbar-nav:hover li a {
@@ -88,7 +90,7 @@ section {
 
 .navbar-toggler {
   font-size: 2rem;
-  color: #000; }
+  color: #fff; }
 
 .jumbotron {
   color: #fff;
@@ -108,7 +110,16 @@ section {
   .jumbotron .container {
     position: relative;
     z-index: 1; }
-  .jumbotron:before {
+  .jumbotron .img_bg {
+    width:10000%;
+    height:auto;
+    position:absolute;
+    z-index:-1;
+  }
+
+    
+
+  /* .jumbotron:before {
     position: absolute;
     display: block;
     content: "";
@@ -117,12 +128,12 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #000000;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #ffffff);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #ffffff);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+    background: #000000;*/
+    /* fallback for old browsers 
+    background: -webkit-linear-gradient(to right, #000000, #ffffff);*/
+    /* Chrome 10-25, Safari 5.1-6 
+    background: linear-gradient(to right, #000000, #ffffff);*/
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+  } */
   .jumbotron h1 {
     line-height: .9;
     font-weight: bold;
@@ -148,16 +159,16 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #000000;
+    /* background: #000000; */
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #000000, #ffffff);
+    /* background: -webkit-linear-gradient(to right, #000000, #ffffff); */
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #000000, #ffffff);
+    /* background: linear-gradient(to right, #000000, #ffffff); */
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
   .overlay.bg-white {
     color: #000; }
     .overlay.bg-white:before {
-      background: #fff;
+      background: #141414;
       opacity: .7; }
 
 .text-white {
@@ -400,7 +411,7 @@ section {
     transform: translateY(-13px); }
 
 .progress-bar {
-  background-color: #00073d; }
+  background-color: #ffeb78; }
 
 /*=====  End of FEATURES  ======*/
 /*=============================
@@ -551,11 +562,11 @@ section {
   z-index: 1002;
   top: 0;
   left: 0;
-  background-color: #000;
+  background-color: #fff;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  color: #fff; }
+  color: #000; }
 
 .sidenav-content {
   padding: 8px 32px;
@@ -576,7 +587,7 @@ section {
   transition: 0.3s; }
 
 .sidenav a:hover {
-  color: #f1f1f1; }
+  color: #f0ff80; }
 
 .sidenav #side-nav-close,
 .sidenav #side-search-close {
@@ -686,6 +697,13 @@ section {
 
 .blog-content .img.float-right {
   margin: 15px 0 15px 15px; }
+
+footer{
+  background-color: #141414;
+}
+i{
+  color:#fff;
+}
 
 /*=====  End of BLOG  ======*/
 /*====================================
